@@ -22,7 +22,9 @@ const GradingScaleSegment = ({
     data-testid="grading-scale-segment"
     {...getSegmentProps()}
   >
-    <div className="grading-scale-segment-content">
+    <div className="grading-scale-segment-content" style={{
+      marginRight: (value - gradingSegments[idx === 0 ? 0 : idx - 1]?.previous) < 6?'0.125rem': '1.25rem'
+    }}>
       {gradingSegments.length === 2 && (
         <input
           className="grading-scale-segment-content-title m-0"
