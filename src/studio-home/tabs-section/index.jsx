@@ -28,11 +28,11 @@ const TabsSection = ({
   const { pathname } = useLocation();
   const libMode = getConfig().LIBRARY_MODE;
   const TABS_LIST = {
-    courses: 'courses',
-    libraries: 'libraries',
-    legacyLibraries: 'legacyLibraries',
-    archived: 'archived',
-    taxonomies: 'taxonomies',
+    courses: 'Курсы',
+    libraries: '',
+    legacyLibraries: '',
+    archived: '',
+    taxonomies: '',
   };
 
   const initTabKeyState = (pname) => {
@@ -171,14 +171,7 @@ const TabsSection = ({
   const handleSelectTab = (tab) => {
     if (tab === TABS_LIST.courses) {
       navigate('/home');
-    } else if (tab === TABS_LIST.legacyLibraries) {
-      dispatch(fetchLibraryData());
-      navigate('/libraries-v1');
-    } else if (tab === TABS_LIST.libraries) {
-      navigate('/libraries');
-    } else if (tab === TABS_LIST.taxonomies) {
-      navigate('/taxonomies');
-    }
+    } 
     setTabKey(tab);
   };
 

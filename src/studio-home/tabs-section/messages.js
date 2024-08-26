@@ -3,51 +3,51 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   coursesTabTitle: {
     id: 'course-authoring.studio-home.courses.tab.title',
-    defaultMessage: 'Courses',
+    defaultMessage: 'Курсы',
   },
   courseTabErrorMessage: {
     id: 'course-authoring.studio-home.courses.tab.error.message',
-    defaultMessage: 'Failed to fetch courses. Please try again later.',
+    defaultMessage: 'Не удалось получить доступ к курсаам. Пожалуйста, повторите попытку позже.',
   },
   coursesPaginationInfo: {
     id: 'course-authoring.studio-home.courses.pagination.info',
-    defaultMessage: 'Showing {length} of {total}',
+    defaultMessage: 'Показано {length} из {total}',
   },
   librariesTabErrorMessage: {
     id: 'course-authoring.studio-home.libraries.tab.error.message',
-    defaultMessage: 'Failed to fetch libraries. Please try again later.',
+    defaultMessage: 'Не удалось получить доступ к библиотекам. Пожалуйста, повторите попытку позже.',
   },
   librariesTabTitle: {
     id: 'course-authoring.studio-home.libraries.tab.title',
-    defaultMessage: 'Libraries',
+    defaultMessage: '',
   },
   legacyLibrariesTabTitle: {
     id: 'course-authoring.studio-home.legacy.libraries.tab.title',
-    defaultMessage: 'Legacy Libraries',
+    defaultMessage: '',
   },
   archivedTabTitle: {
     id: 'course-authoring.studio-home.archived.tab.title',
-    defaultMessage: 'Archived courses',
+    defaultMessage: 'Архивные курсы',
   },
   archiveTabErrorMessage: {
     id: 'course-authoring.studio-home.archived.tab.error.message',
-    defaultMessage: 'Failed to fetch archived courses. Please try again later.',
+    defaultMessage: 'Не удалось получить архивные курсы. Пожалуйста, повторите попытку позже.',
   },
   coursesTabCourseNotFoundAlertTitle: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.title',
-    defaultMessage: 'We could not find any result',
+    defaultMessage: 'Мы не смогли найти никакого результата',
   },
   coursesTabCourseNotFoundAlertMessage: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.message',
-    defaultMessage: 'There are no courses with the current filters.',
+    defaultMessage: 'Курсов с текущими фильтрами не существует.',
   },
   coursesTabCourseNotFoundAlertCleanFiltersButton: {
     id: 'course-authoring.studio-home.courses.tab.course.not.found.alert.clean.filters.button',
-    defaultMessage: 'Clear filters',
+    defaultMessage: 'Очистить фильтры',
   },
   taxonomiesTabTitle: {
     id: 'course-authoring.studio-home.taxonomies.tab.title',
-    defaultMessage: 'Taxonomies',
+    defaultMessage: '',
     description: 'Title of Taxonomies tab on the home page',
   },
   libraryV2PlaceholderTitle: {
@@ -60,15 +60,15 @@ const messages = defineMessages({
   },
   librariesV2TabLibrarySearchPlaceholder: {
     id: 'course-authoring.studio-home.libraries.tab.library.search-placeholder',
-    defaultMessage: 'Search',
+    defaultMessage: 'Поиск',
   },
   librariesV2TabLibraryNotFoundAlertTitle: {
     id: 'course-authoring.studio-home.libraries.tab.library.not.found.alert.title',
-    defaultMessage: 'We could not find any result',
+    defaultMessage: 'Результатов по вашему запросу не найдено',
   },
   librariesV2TabLibraryNotFoundAlertMessage: {
     id: 'course-authoring.studio-home.libraries.tab.library.not.found.alert.message',
-    defaultMessage: 'There are no libraries with the current filters.',
+    defaultMessage: 'Нет библиотек с текущими фильтрами.',
   },
 });
 
