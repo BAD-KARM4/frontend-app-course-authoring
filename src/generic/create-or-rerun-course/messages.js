@@ -67,11 +67,11 @@ const messages = defineMessages({
   },
   courseRunLabel: {
     id: 'course-authoring.create-or-rerun-course.run.label',
-    defaultMessage: 'Course run',
+    defaultMessage: 'Принадлежность',
   },
   courseRunPlaceholder: {
     id: 'course-authoring.create-or-rerun-course.run.placeholder',
-    defaultMessage: 'e.g. 2014_T1',
+    defaultMessage: 'Например, Red / Blue / Purple',
   },
   courseRunCreateHelpText: {
     id: 'course-authoring.create-or-rerun-course.create.run.help-text',
