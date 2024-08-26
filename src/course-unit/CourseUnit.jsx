@@ -195,7 +195,7 @@ const CourseUnit = ({ courseId }) => {
                 <Sidebar data-testid="course-unit-sidebar">
                   <PublishControls blockId={blockId} />
                 </Sidebar>
-                {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true'
+                {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa'
                 && (
                   <Sidebar className="tags-sidebar">
                     <TagsSidebarControls />

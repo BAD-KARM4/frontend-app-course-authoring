@@ -142,7 +142,7 @@ const CardHeader = ({
           {(isVertical || isSequential) && (
             <CardStatus status={status} showDiscussionsEnabledBadge={showDiscussionsEnabledBadge} />
           )}
-          { getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true' && !!contentTagCount && (
+          { getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa' && !!contentTagCount && (
             <TagCount count={contentTagCount} onClick={openManageTagsDrawer} />
           )}
           <Dropdown data-testid={`${namePrefix}-card-header__menu`} onClick={onClickMenuButton}>
@@ -180,7 +180,7 @@ const CardHeader = ({
               >
                 {intl.formatMessage(messages.menuConfigure)}
               </Dropdown.Item>
-              {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true' && (
+              {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa' && (
                 <Dropdown.Item
                   data-testid={`${namePrefix}-card-header__menu-manage-tags-button`}
                   onClick={openManageTagsDrawer}

@@ -155,7 +155,7 @@ const TabsSection = ({
       }
     }
 
-    if (getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true') {
+    if (getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa') {
       tabs.push(
         <Tab
           key={TABS_LIST.taxonomies}

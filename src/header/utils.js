@@ -72,7 +72,7 @@ export const getToolsMenuItems = ({ studioBaseUrl, courseId, intl }) => ([
     href: `${studioBaseUrl}/export/${courseId}`,
     title: intl.formatMessage(messages['header.links.exportCourse']),
   },
-  ...(getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true'
+  ...(getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa'
     ? [{
       href: '#export-tags',
       title: intl.formatMessage(messages['header.links.exportTags']),

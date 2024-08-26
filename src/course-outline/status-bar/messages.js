@@ -43,12 +43,12 @@ const messages = defineMessages({
   },
   courseTagsTitle: {
     id: 'course-authoring.course-outline.status-bar.course-tags',
-    defaultMessage: 'Course tags',
+    defaultMessage: 'Теги',
     description: 'Course tags header in course outline',
   },
   courseManageTagsLink: {
     id: 'course-authoring.course-outline.status-bar.course-manage-tags-link',
-    defaultMessage: 'Manage tags',
+    defaultMessage: 'Управление тегами',
     description: 'Opens the drawer to edit content tags',
   },
   videoSharingTitle: {

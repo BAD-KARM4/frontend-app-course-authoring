@@ -136,7 +136,7 @@ const StatusBar = ({
             </Hyperlink>
           </div>
         </StatusBarItem>
-        {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true' && (
+        {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa' && (
           <StatusBarItem title={intl.formatMessage(messages.courseTagsTitle)}>
             <div className="d-flex align-items-center">
               <TagCount count={courseTagCount} />

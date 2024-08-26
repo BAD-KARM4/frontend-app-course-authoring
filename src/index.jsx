@@ -60,7 +60,7 @@ const App = () => {
         {getConfig().ENABLE_ACCESSIBILITY_PAGE === 'true' && (
           <Route path="/accessibility" element={<AccessibilityPage />} />
         )}
-        {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'true' && (
+        {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa' && (
           <>
             <Route path="/taxonomies" element={<TaxonomyLayout />}>
               <Route index element={<TaxonomyListPage />} />
