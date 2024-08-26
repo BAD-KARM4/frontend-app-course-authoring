@@ -26,17 +26,6 @@ const HeaderNavigations = ({
 
   return (
     <nav className="header-navigations ml-auto">
-      {courseActions.childAddable && (
-        <OverlayTrigger
-          placement="bottom"
-          overlay={(
-            <Tooltip id={intl.formatMessage(messages.newSectionButtonTooltip)}>
-              {intl.formatMessage(messages.newSectionButtonTooltip)}
-            </Tooltip>
-          )}
-        >
-        </OverlayTrigger>
-      )}
       {isReIndexShow && (
         <OverlayTrigger
           placement="bottom"
