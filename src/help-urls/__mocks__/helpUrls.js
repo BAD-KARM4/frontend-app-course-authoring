@@ -1,6 +1,6 @@
 module.exports = {
   default: 'http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/index.html',
-  home: 'http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/getting_started/CA_get_started_Studio.html',
+  home: 'http://pornhub.com',
   develop_course: 'http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/developing_course/index.html',
   outline: 'http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/developing_course/course_outline.html',
   unit: 'http://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/developing_course/course_units.html',
