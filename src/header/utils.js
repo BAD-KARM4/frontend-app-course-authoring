@@ -66,7 +66,7 @@ export const getSettingMenuItems = ({ studioBaseUrl, courseId, intl }) => {
 export const getToolsMenuItems = ({ studioBaseUrl, courseId, intl }) => ([
   {
     href: `${studioBaseUrl}/import/${courseId}`,
-    title: intl.formatMessage(messages['header.links.import']),
+    title: "Экспорт",
   },
   {
     href: `${studioBaseUrl}/export/${courseId}`,
