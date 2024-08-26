@@ -59,7 +59,7 @@ const messages = defineMessages({
   },
   menuCopy: {
     id: 'course-authoring.course-outline.card.menu.copy',
-    defaultMessage: 'Copy to clipboard',
+    defaultMessage: 'Скопировать',
   },
   menuProctoringLinkText: {
     id: 'course-authoring.course-outline.card.menu.proctoring-settings',

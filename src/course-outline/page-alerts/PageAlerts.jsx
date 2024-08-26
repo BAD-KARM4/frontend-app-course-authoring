@@ -76,7 +76,22 @@ const PageAlerts = ({
     );
   };
 
-  
+  const discussionNotification = () => {
+    const { providerType } = discussionsSettings || {};
+    if (providerType !== 'openedx') {
+      return null;
+    }
+
+    const onDismiss = () => {
+      setShowDiscussionAlert(false);
+    };
+
+    return (
+      <Alert
+      >
+      </Alert>
+    );
+  };
 
   const deprecationWarning = () => {
     const {

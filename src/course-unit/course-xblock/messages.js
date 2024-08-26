@@ -28,7 +28,7 @@ const messages = defineMessages({
   },
   blockLabelButtonCopyToClipboard: {
     id: 'course-authoring.course-unit.xblock.button.copyToClipboard.label',
-    defaultMessage: 'Copy to clipboard',
+    defaultMessage: 'Скопировать',
   },
   blockLabelButtonManageAccess: {
     id: 'course-authoring.course-unit.xblock.button.manageAccess.label',
