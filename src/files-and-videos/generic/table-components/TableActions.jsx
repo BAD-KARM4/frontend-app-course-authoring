@@ -35,14 +35,14 @@ const TableActions = ({
 
   return (
     <>
-      <Button variant="outline-danger" onClick={openSort} iconBefore={Tune}>
+      <Button variant="outline-primary" onClick={openSort} iconBefore={Tune}>
         <FormattedMessage {...messages.sortButtonLabel} />
       </Button>
       <Dropdown className="mx-2">
         <Dropdown.Toggle
           id="actions-menu-toggle"
           alt="actions-menu-toggle"
-          variant="outline-danger"
+          variant="outline-primary"
         >
           <FormattedMessage {...messages.actionsButtonLabel} />
         </Dropdown.Toggle>

@@ -33,13 +33,13 @@ describe('<LicenseSelector />', () => {
     const activeButton = getByRole('button', { name: messages.licenseChoice1.defaultMessage });
     const anotherButton = getByRole('button', { name: messages.licenseChoice2.defaultMessage });
     expect(activeButton).toHaveClass('btn btn-primary');
-    expect(anotherButton).toHaveClass('btn btn-outline-danger');
+    expect(anotherButton).toHaveClass('btn btn-outline-primary');
   });
 
   it('should call onChangeLicenseType if button clicked', () => {
     const { getByRole } = render(<RootWrapper {...props} />);
     const button = getByRole('button', { name: messages.licenseChoice2.defaultMessage });
-    expect(button).toHaveClass('btn btn-outline-danger');
+    expect(button).toHaveClass('btn btn-outline-primary');
     act(() => {
       fireEvent.click(button);
     });
@@ -57,7 +57,7 @@ describe('<LicenseSelector />', () => {
     const { getByRole } = render(<RootWrapper {...initialProps} />);
     const buttonFirst = getByRole('button', { name: messages.licenseChoice1.defaultMessage });
     const buttonSecond = getByRole('button', { name: messages.licenseChoice2.defaultMessage });
-    expect(buttonFirst).toHaveClass('btn btn-outline-danger');
-    expect(buttonSecond).toHaveClass('btn btn-outline-danger');
+    expect(buttonFirst).toHaveClass('btn btn-outline-primary');
+    expect(buttonSecond).toHaveClass('btn btn-outline-primary');
   });
 });

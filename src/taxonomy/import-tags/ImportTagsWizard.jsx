@@ -47,7 +47,7 @@ const ExportStep = ({ taxonomy }) => {
         <Stack gap={3} direction="horizontal">
           <Button
             iconBefore={Download}
-            variant="outline-danger"
+            variant="outline-primary"
             onClick={() => getTaxonomyExportFile(taxonomy.id, 'csv')}
             data-testid="export-csv-button"
           >
@@ -55,7 +55,7 @@ const ExportStep = ({ taxonomy }) => {
           </Button>
           <Button
             iconBefore={Download}
-            variant="outline-danger"
+            variant="outline-primary"
             onClick={() => getTaxonomyExportFile(taxonomy.id, 'json')}
             data-testid="export-json-button"
           >
@@ -473,7 +473,7 @@ const ImportTagsWizard = ({
               {
                 reimport
                 && (
-                  <Button variant="outline-danger" onClick={() => setCurrentStep('export')} data-testid="back-button">
+                  <Button variant="outline-primary" onClick={() => setCurrentStep('export')} data-testid="back-button">
                     {intl.formatMessage(messages.importWizardButtonPrevious)}
                   </Button>
                 )
@@ -499,7 +499,7 @@ const ImportTagsWizard = ({
             </Stepper.ActionRow>
 
             <Stepper.ActionRow eventKey="populate">
-              <Button variant="outline-danger" onClick={() => setCurrentStep('upload')} data-testid="back-button">
+              <Button variant="outline-primary" onClick={() => setCurrentStep('upload')} data-testid="back-button">
                 {intl.formatMessage(messages.importWizardButtonPrevious)}
               </Button>
               <Stepper.ActionRow.Spacer />
@@ -516,7 +516,7 @@ const ImportTagsWizard = ({
             </Stepper.ActionRow>
 
             <Stepper.ActionRow eventKey="plan">
-              <Button variant="outline-danger" onClick={() => setCurrentStep('upload')} data-testid="back-button">
+              <Button variant="outline-primary" onClick={() => setCurrentStep('upload')} data-testid="back-button">
                 {intl.formatMessage(messages.importWizardButtonPrevious)}
               </Button>
               <Stepper.ActionRow.Spacer />
@@ -532,7 +532,7 @@ const ImportTagsWizard = ({
               {
                 reimport
                 && (
-                  <Button variant="outline-danger" onClick={() => setCurrentStep('plan')} data-testid="back-button">
+                  <Button variant="outline-primary" onClick={() => setCurrentStep('plan')} data-testid="back-button">
                     {intl.formatMessage(messages.importWizardButtonPrevious)}
                   </Button>
                 )

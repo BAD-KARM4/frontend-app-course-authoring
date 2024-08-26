@@ -116,7 +116,7 @@ const BasicSection = ({
           body={emailBody}
           data-testid={INVITE_STUDENTS_LINK_ID}
         >
-          <Button variant="outline-danger" iconBefore={EmailIcon} size="sm">
+          <Button variant="outline-primary" iconBefore={EmailIcon} size="sm">
             {intl.formatMessage(messages.basicPromotionButton)}
           </Button>
         </MailtoLink>

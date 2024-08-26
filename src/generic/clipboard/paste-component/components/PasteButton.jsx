@@ -14,7 +14,7 @@ const PasteButton = ({ onClick, text, className }) => {
     <Button
       className={className}
       iconBefore={ContentCopyIcon}
-      variant="outline-danger"
+      variant="outline-primary"
       block
       onClick={handlePasteXBlockComponent}
     >

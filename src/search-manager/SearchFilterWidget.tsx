@@ -42,7 +42,7 @@ const SearchFilterWidget: React.FC<{
       <div className="d-flex mr-3">
         <Button
           ref={setTarget}
-          variant={appliedFilters.length ? 'light' : 'outline-danger'}
+          variant={appliedFilters.length ? 'light' : 'outline-primary'}
           size="sm"
           onClick={open}
           iconBefore={props.icon}

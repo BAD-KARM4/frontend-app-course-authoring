@@ -41,7 +41,7 @@ const LearningOutcomesSection = ({ learningInfo, onChange }) => {
         onChange={(e) => handleInputChange(e.target.value, idx)}
       />
       <Button
-        variant="outline-danger"
+        variant="outline-primary"
         onClick={() => handleDelete(idx)}
       >
         {intl.formatMessage(messages.outcomesDelete)}

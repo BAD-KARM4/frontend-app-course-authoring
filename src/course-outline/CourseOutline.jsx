@@ -412,7 +412,7 @@ const CourseOutline = ({ courseId }) => {
                               <Button
                                 data-testid="new-section-button"
                                 className="mt-4"
-                                variant="outline-danger"
+                                variant="outline-primary"
                                 onClick={handleNewSectionSubmit}
                                 iconBefore={IconAdd}
                                 block

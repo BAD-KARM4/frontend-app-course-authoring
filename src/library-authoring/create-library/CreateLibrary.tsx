@@ -122,7 +122,7 @@ const CreateLibrary = () => {
               />
               <ActionRow className="justify-content-start">
                 <Button
-                  variant="outline-danger"
+                  variant="outline-primary"
                   onClick={handleOnClickCancel}
                 >
                   {intl.formatMessage(messages.cancelCreateLibraryButton)}

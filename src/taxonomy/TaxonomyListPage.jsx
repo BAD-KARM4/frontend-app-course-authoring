@@ -55,7 +55,7 @@ const TaxonomyListHeaderButtons = ({ canAddTaxonomy }) => {
         <Dropdown id="download-template-dropdown">
           <Dropdown.Toggle
             id="download-template-dropdown-toggle"
-            variant="outline-danger"
+            variant="outline-primary"
             data-testid="taxonomy-download-template"
           >
             {intl.formatMessage(messages.downloadTemplateButtonLabel)}

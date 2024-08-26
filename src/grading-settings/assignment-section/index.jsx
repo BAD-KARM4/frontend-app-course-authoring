@@ -182,7 +182,7 @@ const AssignmentSection = ({
             )}
             <Button
               className="course-grading-assignment-delete-btn"
-              variant="outline-danger"
+              variant="outline-primary"
               size="sm"
               onClick={() => handleRemoveAssignment(gradeField.id)}
             >

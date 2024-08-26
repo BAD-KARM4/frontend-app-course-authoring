@@ -226,7 +226,7 @@ const SubsectionCard = ({
                 <Button
                   data-testid="new-unit-button"
                   className="mt-4"
-                  variant="outline-danger"
+                  variant="outline-primary"
                   iconBefore={IconAdd}
                   block
                   onClick={handleNewButtonClick}

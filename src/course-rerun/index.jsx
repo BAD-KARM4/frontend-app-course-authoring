@@ -55,7 +55,7 @@ const CourseRerun = () => {
                   <span className="large">{originalCourseData}</span>
                 </Stack>
                 <ActionRow className="ml-auto">
-                  <Button variant="outline-danger" size="sm" onClick={handleRerunCourseCancel}>
+                  <Button variant="outline-primary" size="sm" onClick={handleRerunCourseCancel}>
                     {intl.formatMessage(messages.cancelButton)}
                   </Button>
                 </ActionRow>

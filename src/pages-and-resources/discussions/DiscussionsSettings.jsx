@@ -105,7 +105,7 @@ const DiscussionsSettings = ({ courseId, intl }) => {
                 <Stepper.ActionRow eventKey={SETTINGS_STEP}>
                   <div className="d-flex w-100 justify-content-between">
                     <Button
-                      variant="outline-danger"
+                      variant="outline-primary"
                       onClick={handleBack}
                     >
                       {intl.formatMessage(messages.backButton)}

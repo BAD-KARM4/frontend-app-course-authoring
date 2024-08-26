@@ -10,7 +10,7 @@ const AddComponentButton = ({ type, displayName, onClick }) => {
 
   return (
     <Button
-      variant="outline-danger"
+      variant="outline-primary"
       className="add-component-button flex-column rounded-sm"
       onClick={onClick}
     >

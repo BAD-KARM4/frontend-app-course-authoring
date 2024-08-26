@@ -56,7 +56,7 @@ const HeaderNavigations = ({
           <Button
             onClick={handleReIndex}
             data-testid="course-reindex"
-            variant="outline-danger"
+            variant="outline-primary"
             disabled={isDisabledReindexButton}
           >
             {intl.formatMessage(messages.reindexButton)}
@@ -65,7 +65,7 @@ const HeaderNavigations = ({
       )}
       {hasSections && (
         <Button
-          variant="outline-danger"
+          variant="outline-primary"
           iconBefore={isSectionsExpanded ? ArrowUpIcon : ArrowDownIcon}
           onClick={handleExpandAll}
         >
@@ -85,7 +85,7 @@ const HeaderNavigations = ({
         <Button
           href={lmsLink}
           target="_blank"
-          variant="outline-danger"
+          variant="outline-primary"
         >
           {intl.formatMessage(messages.viewLiveButton)}
         </Button>

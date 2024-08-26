@@ -139,7 +139,7 @@ const SignatoryForm = ({
             {intl.formatMessage(commonMessages.saveTooltip)}
           </Button>
           <Button
-            variant="outline-danger"
+            variant="outline-primary"
             onClick={() => handleCancelUpdateSignatory()}
           >
             {intl.formatMessage(commonMessages.cardCancel)}

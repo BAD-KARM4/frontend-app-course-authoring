@@ -22,7 +22,7 @@ const ActionButtons = ({ openDiscardModal, handlePublishing }) => {
   return (
     <>
       {(!published || hasChanges) && (
-        <Button size="sm" className="mt-3.5" variant="outline-danger" onClick={handlePublishing}>
+        <Button size="sm" className="mt-3.5" variant="outline-primary" onClick={handlePublishing}>
           {intl.formatMessage(messages.actionButtonPublishTitle)}
         </Button>
       )}
@@ -41,7 +41,7 @@ const ActionButtons = ({ openDiscardModal, handlePublishing }) => {
           <Divider className="course-unit-sidebar-footer__divider" />
           <Button
             onClick={() => dispatch(copyToClipboard(id))}
-            variant="outline-danger"
+            variant="outline-primary"
             size="sm"
           >
             {intl.formatMessage(messages.actionButtonCopyUnitTitle)}

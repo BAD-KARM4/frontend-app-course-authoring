@@ -35,7 +35,7 @@ const LicenseSelector = ({ licenseType, onChangeLicenseType }) => {
         }
       >
         <Button
-          variant={isActive ? 'primary' : 'outline-danger'}
+          variant={isActive ? 'primary' : 'outline-primary'}
           onClick={() => onChangeLicenseType(type, 'license')}
         >
           {LICENSE_BUTTON_GROUP_LABELS[type].label}

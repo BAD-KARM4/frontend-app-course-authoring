@@ -116,7 +116,7 @@ const AddContentContainer = () => {
   return (
     <Stack direction="vertical">
       <Button
-        variant="outline-danger"
+        variant="outline-primary"
         disabled
         className="m-2 rounded-0"
         iconBefore={BookOpen}
@@ -127,7 +127,7 @@ const AddContentContainer = () => {
       {contentTypes.map((contentType) => (
         <Button
           key={`add-content-${contentType.blockType}`}
-          variant="outline-danger"
+          variant="outline-primary"
           disabled={contentType.disabled}
           className="m-2 rounded-0"
           iconBefore={contentType.icon}

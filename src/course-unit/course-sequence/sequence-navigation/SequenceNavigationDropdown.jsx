@@ -17,7 +17,7 @@ const SequenceNavigationDropdown = ({
 
   return (
     <Dropdown className="sequence-navigation-dropdown">
-      <Dropdown.Toggle id="sequence-navigation-dropdown" variant="outline-danger" className="w-100">
+      <Dropdown.Toggle id="sequence-navigation-dropdown" variant="outline-primary" className="w-100">
         {intl.formatMessage(messages.sequenceDropdownTitle, {
           current: unitIds.indexOf(unitId) + 1,
           total: unitIds.length,
@@ -36,7 +36,7 @@ const SequenceNavigationDropdown = ({
         ))}
         <Button
           as={Dropdown.Item}
-          variant="outline-danger"
+          variant="outline-primary"
           iconBefore={PlusIcon}
           onClick={handleAddNewSequenceUnit}
         >
@@ -45,7 +45,7 @@ const SequenceNavigationDropdown = ({
         {showPasteUnit && (
           <Button
             as={Dropdown.Item}
-            variant="outline-danger"
+            variant="outline-primary"
             iconBefore={ContentPasteGoIcon}
             onClick={handlePasteNewSequenceUnit}
           >
