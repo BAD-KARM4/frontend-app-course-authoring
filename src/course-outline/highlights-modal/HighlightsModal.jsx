@@ -26,9 +26,9 @@ const HighlightsModal = ({
   const { highlights = [], displayName } = useSelector(getCurrentSection);
   const initialFormValues = getHighlightsFormValues(highlights);
 
-  const {
-    contentHighlights: contentHighlightsUrl,
-  } = useHelpUrls(['contentHighlights']);
+  // const {
+  //   contentHighlights: contentHighlightsUrl,
+  // } = useHelpUrls(['contentHighlights']);
 
   return (
     <ModalDialog
@@ -51,14 +51,6 @@ const HighlightsModal = ({
         {({ values, dirty, handleSubmit }) => (
           <>
             <ModalDialog.Body>
-              <p className="mb-4.5 pb-2">
-                {intl.formatMessage(messages.description, {
-                  documentation: (
-                    <Hyperlink destination={contentHighlightsUrl} target="_blank" showLaunchIcon={false}>
-                      {intl.formatMessage(messages.documentationLink)}
-                    </Hyperlink>),
-                })}
-              </p>
               {Object.entries(initialFormValues).map(([key], index) => (
                 <FormikControl
                   key={key}
