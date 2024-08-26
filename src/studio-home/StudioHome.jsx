@@ -88,34 +88,6 @@ const StudioHome = ({ intl }) => {
       );
     }
 
-    const newLibraryClick = () => {
-      if (isMixedOrV2LibrariesMode(libMode) && !v1LibraryTab) {
-        if (libraryAuthoringMfeUrl && redirectToLibraryAuthoringMfe) {
-          // Library authoring MFE
-          window.open(constructLibraryAuthoringURL(libraryAuthoringMfeUrl, 'create'));
-        } else {
-          // Use course-authoring route
-          navigate('/library/create');
-        }
-      } else {
-        // Studio home library for legacy libraries
-        window.open(`${getConfig().STUDIO_BASE_URL}/home_library`);
-      }
-    };
-
-    headerButtons.push(
-      <Button
-        variant="outline-primary"
-        iconBefore={AddIcon}
-        size="sm"
-        disabled={showNewCourseContainer}
-        onClick={newLibraryClick}
-        data-testid="new-library-button"
-      >
-        {intl.formatMessage(messages.addNewLibraryBtnText)}
-      </Button>,
-    );
-
     return headerButtons;
   }, [location, userIsActive, isFailedLoadingPage]);
 
