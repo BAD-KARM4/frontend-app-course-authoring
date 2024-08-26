@@ -30,13 +30,7 @@ const ReleaseStatus = ({
   }
 
   const releaseStatusDiv = () => (
-    <div className="d-flex align-items-center" data-testid="release-status-div">
-      <span className="sr-only status-release-label">
-        {intl.formatMessage(messages.releaseStatusScreenReaderTitle)}
-      </span>
-      <Icon className="mr-1" size="sm" src={ClockIcon} />
-      {intl.formatMessage(releaseLabel)}
-      {releaseDate && releaseDate}
+    <div>
     </div>
   );
 
