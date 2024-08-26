@@ -76,47 +76,7 @@ const PageAlerts = ({
     );
   };
 
-  const discussionNotification = () => {
-    const { providerType } = discussionsSettings || {};
-    if (providerType !== 'openedx') {
-      return null;
-    }
-
-    const onDismiss = () => {
-      setShowDiscussionAlert(false);
-    };
-
-    return (
-      <Alert
-        dismissible
-        show={showDiscussionAlert}
-        icon={InfoOutlineIcon}
-        variant="info"
-        onClose={onDismiss}
-        actions={[
-          <Button
-            href={discussionsIncontextLearnmoreUrl}
-            target="_blank"
-          >
-            {intl.formatMessage(messages.discussionNotificationLearnMore)}
-          </Button>,
-        ]}
-      >
-        <div className="font-weight-normal text-gray mw-md">
-          {intl.formatMessage(messages.discussionNotificationText, {
-            platformName: process.env.SITE_NAME,
-          })}
-        </div>
-        <Hyperlink
-          showLaunchIcon={false}
-          destination={discussionsIncontextFeedbackUrl}
-          target="_blank"
-        >
-          {intl.formatMessage(messages.discussionNotificationFeedback)}
-        </Hyperlink>
-      </Alert>
-    );
-  };
+  
 
   const deprecationWarning = () => {
     const {
