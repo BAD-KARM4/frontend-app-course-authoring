@@ -29,18 +29,7 @@ const HomeSidebar = () => {
 
   return (
     <HelpSidebar>
-      <h4 className="help-sidebar-about-title">
-        Это заголовок
-      </h4>
-      <p className="help-sidebar-about-descriptions">
-        Это текст под ним, а ниже должна быть ссылка.
-      </p>
-      <HelpSidebarLink
-        as="span"
-        pathToPage={aboutHomeLink || ''}
-        title={intl.formatMessage(messages.studioHomeLinkToGettingStarted, { studioName })}
-      />
-      
+
     </HelpSidebar>
   );
 };
