@@ -47,7 +47,7 @@ const messages = defineMessages({
   },
   taxonomiesTabTitle: {
     id: 'course-authoring.studio-home.taxonomies.tab.title',
-    defaultMessage: '',
+    defaultMessage: ' ',
     description: 'Title of Taxonomies tab on the home page',
   },
   libraryV2PlaceholderTitle: {

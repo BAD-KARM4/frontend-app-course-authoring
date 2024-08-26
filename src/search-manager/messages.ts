@@ -12,7 +12,7 @@ const messages = defineMessages({
   },
   inputPlaceholder: {
     id: 'course-authoring.search-manager.inputPlaceholder',
-    defaultMessage: 'Search',
+    defaultMessage: 'Поиск',
     description: 'Placeholder text shown in the keyword input field when the user has not yet entered a keyword',
   },
   blockTypeFilter: {
@@ -112,7 +112,7 @@ const messages = defineMessages({
   },
   searchTagsByKeywordPlaceholder: {
     id: 'course-authoring.search-manager.searchTagsByKeywordPlaceholder',
-    defaultMessage: 'Search tags',
+    defaultMessage: 'Поиск tags',
     description: 'Placeholder text shown in the input field that allows searching through the available tags',
   },
   submitSearchTagsByKeyword: {

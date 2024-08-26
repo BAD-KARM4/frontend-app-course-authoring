@@ -17,7 +17,7 @@ const messages = defineMessages({
   },
   title: {
     id: 'course-authoring.course-search.title',
-    defaultMessage: 'Search',
+    defaultMessage: 'Поиск',
     description: 'Title for the course search dialog',
   },
   showMore: {
