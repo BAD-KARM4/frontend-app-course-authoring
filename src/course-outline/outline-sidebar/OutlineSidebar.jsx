@@ -24,7 +24,16 @@ const OutlineSideBar = ({ courseId }) => {
     intl,
   );
 
-
+  return (
+    <HelpSidebar
+      intl={intl}
+      courseId={courseId}
+      showOtherSettings={false}
+      className="outline-sidebar mt-4"
+      data-testid="outline-sidebar"
+    >
+    </HelpSidebar>
+  );
 };
 
 OutlineSideBar.propTypes = {
