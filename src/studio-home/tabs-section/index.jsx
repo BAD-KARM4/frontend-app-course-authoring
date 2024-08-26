@@ -29,10 +29,10 @@ const TabsSection = ({
   const libMode = getConfig().LIBRARY_MODE;
   const TABS_LIST = {
     courses: 'Курсы',
-    libraries: '',
-    legacyLibraries: '',
-    archived: '',
-    taxonomies: '',
+    libraries: 'libraries',
+    legacyLibraries: 'legacyLibraries',
+    archived: 'archived',
+    taxonomies: 'taxonomies',
   };
 
   const initTabKeyState = (pname) => {
