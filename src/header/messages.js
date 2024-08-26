@@ -108,7 +108,7 @@ const messages = defineMessages({
   },
   'header.user.menu.studio': {
     id: 'header.user.menu.studio',
-    defaultMessage: 'Studio Home',
+    defaultMessage: 'Конструктор курсов',
     description: 'Link to Studio Home',
   },
   'header.user.menu.maintenance': {
