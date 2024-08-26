@@ -60,7 +60,7 @@ const SequenceNavigationTabs = ({
           ))}
           <Button
             className="sequence-navigation-tabs-action-btn"
-            variant="outline-primary"
+            variant="outline-danger"
             iconBefore={PlusIcon}
             onClick={handleAddNewSequenceUnit}
           >
@@ -69,7 +69,7 @@ const SequenceNavigationTabs = ({
           {showPasteUnit && (
             <Button
               className="sequence-navigation-tabs-action-btn"
-              variant="outline-primary"
+              variant="outline-danger"
               iconBefore={ContentPasteGoIcon}
               onClick={handlePasteNewSequenceUnit}
             >

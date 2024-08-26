@@ -81,7 +81,7 @@ export const SearchSortWidget: React.FC<Record<never, never>> = () => {
         id="search-sort-toggle"
         title={intl.formatMessage(messages.searchSortWidgetAltTitle)}
         alt={intl.formatMessage(messages.searchSortWidgetAltTitle)}
-        variant="outline-primary"
+        variant="outline-danger"
         className="dropdown-toggle-menu-items d-flex"
         size="sm"
       >

@@ -11,13 +11,13 @@ const HeaderNavigations = ({ headerNavigationsActions }) => {
   return (
     <nav className="header-navigations ml-auto flex-shrink-0">
       <Button
-        variant="outline-primary"
+        variant="outline-danger"
         onClick={handleViewLive}
       >
         {intl.formatMessage(messages.viewLiveButton)}
       </Button>
       <Button
-        variant="outline-primary"
+        variant="outline-danger"
         onClick={handlePreview}
       >
         {intl.formatMessage(messages.previewButton)}

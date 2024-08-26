@@ -15,7 +15,7 @@ const UnitButton = ({
   return (
     <Button
       className={className}
-      variant={isActive ? 'primary' : 'outline-primary'}
+      variant={isActive ? 'primary' : 'outline-danger'}
       as={Link}
       title={title}
       to={`/course/${courseId}/container/${unitId}/${sequenceId}/`}

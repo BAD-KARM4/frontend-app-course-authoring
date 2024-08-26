@@ -59,7 +59,7 @@ const SequenceNavigation = ({
       return (
         <Button
           className="sequence-navigation-prev-btn"
-          variant="outline-primary"
+          variant="outline-danger"
           iconBefore={prevArrow}
           as={Link}
           to={previousLink}
@@ -80,7 +80,7 @@ const SequenceNavigation = ({
       return (
         <Button
           className="sequence-navigation-next-btn"
-          variant="outline-primary"
+          variant="outline-danger"
           iconAfter={nextArrow}
           as={Link}
           to={nextLink}

@@ -30,7 +30,7 @@ const ContactAdministrator = ({
             actions={(
               <Button
                 iconBefore={AddIcon}
-                variant="outline-primary"
+                variant="outline-danger"
                 data-testid="contact-admin-create-course"
                 disabled={!hasAbilityToCreateCourse || showNewCourseContainer}
                 onClick={onClickNewCourse}

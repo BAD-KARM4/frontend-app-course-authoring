@@ -61,7 +61,7 @@ const HeaderActions = ({ canEditLibrary }: HeaderActionsProps) => {
     <>
       <Button
         iconBefore={InfoOutline}
-        variant="outline-primary rounded-0"
+        variant="outline-danger rounded-0"
         onClick={openInfoSidebar}
       >
         {intl.formatMessage(messages.libraryInfoButton)}

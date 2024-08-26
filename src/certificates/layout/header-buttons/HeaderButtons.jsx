@@ -23,7 +23,7 @@ const HeaderButtons = () => {
         {courseModes.map((mode) => <Dropdown.Item key={mode} eventKey={mode}>{mode}</Dropdown.Item>)}
       </DropdownButton>
       <Button
-        variant="outline-primary"
+        variant="outline-danger"
         as={Hyperlink}
         destination={previewUrl}
         target="_blank"
@@ -32,7 +32,7 @@ const HeaderButtons = () => {
         {intl.formatMessage(messages.headingActionsPreview)}
       </Button>
       <Button
-        variant="outline-primary"
+        variant="outline-danger"
         onClick={handleActivationStatus}
       >
         {isCertificateActive

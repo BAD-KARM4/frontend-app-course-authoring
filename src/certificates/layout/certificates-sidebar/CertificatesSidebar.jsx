@@ -30,7 +30,7 @@ const CertificatesSidebar = ({ courseId }) => {
         showLaunchIcon={false}
         size="sm"
         href={learnMoreCertificates}
-        variant="outline-primary"
+        variant="outline-danger"
       >
         {intl.formatMessage(messages.learnMoreBtn)}
       </Button>

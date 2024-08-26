@@ -36,7 +36,7 @@ const IntroductionVideo = ({ intl, introVideo, onChange }) => {
             onChange={(e) => onChange(e.target.value, 'introVideo')}
           />
           <Button
-            variant="outline-primary"
+            variant="outline-danger"
             onClick={() => onChange('', 'introVideo')}
             disabled={!introVideo}
           >

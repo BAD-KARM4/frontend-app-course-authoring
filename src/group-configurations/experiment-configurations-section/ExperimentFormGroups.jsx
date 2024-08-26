@@ -80,7 +80,7 @@ const ExperimentFormGroups = ({
         })}
       </Stack>
       <Button
-        variant="outline-primary"
+        variant="outline-danger"
         onClick={() => onCreateGroup(getNextGroupName(groups))}
         iconBefore={AddIcon}
         block

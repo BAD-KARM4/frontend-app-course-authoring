@@ -58,7 +58,7 @@ const ContentGroupsSection = ({
           {!isNewGroupVisible && (
             <Button
               className="mt-4"
-              variant="outline-primary"
+              variant="outline-danger"
               onClick={openNewGroup}
               iconBefore={AddIcon}
               block

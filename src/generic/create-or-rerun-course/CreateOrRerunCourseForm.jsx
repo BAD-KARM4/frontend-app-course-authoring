@@ -174,7 +174,7 @@ const CreateOrRerunCourseForm = ({
     />
   ) : (
     <Dropdown className="mr-2">
-      <Dropdown.Toggle id={`${field.name}-dropdown`} variant="outline-primary">
+      <Dropdown.Toggle id={`${field.name}-dropdown`} variant="outline-danger">
         {field.value || intl.formatMessage(messages.courseOrgNoOptions)}
       </Dropdown.Toggle>
       <Dropdown.Menu>
@@ -253,7 +253,7 @@ const CreateOrRerunCourseForm = ({
         ))}
         <ActionRow className="justify-content-start">
           <Button
-            variant="outline-primary"
+            variant="outline-danger"
             onClick={handleOnClickCancel}
           >
             {intl.formatMessage(messages.cancelButton)}

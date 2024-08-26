@@ -77,7 +77,7 @@ const StudioHome = ({ intl }) => {
     if (hasAbilityToCreateNewCourse) {
       headerButtons.push(
         <Button
-          variant="outline-primary"
+          variant="outline-danger"
           iconBefore={AddIcon}
           size="sm"
           disabled={showNewCourseContainer}

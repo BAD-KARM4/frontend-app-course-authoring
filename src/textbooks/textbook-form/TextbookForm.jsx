@@ -140,7 +140,7 @@ const TextbookForm = ({
                       </Form.Control.Feedback>
                     )}
                     <Button
-                      variant="outline-primary"
+                      variant="outline-danger"
                       className="w-100"
                       iconBefore={AddIcon}
                       onClick={() => arrayHelpers.push({ title: '', url: '' })}

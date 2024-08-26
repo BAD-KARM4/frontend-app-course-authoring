@@ -62,7 +62,7 @@ const CertificateEditForm = ({ courseId }) => {
                       {intl.formatMessage(commonMessages.saveTooltip)}
                     </Button>
                     <Button
-                      variant="outline-primary"
+                      variant="outline-danger"
                       onClick={() => handleCertificateUpdateCancel(resetForm)}
                     >
                       {intl.formatMessage(commonMessages.cardCancel)}
