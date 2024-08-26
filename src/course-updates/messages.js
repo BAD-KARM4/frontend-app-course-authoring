@@ -23,12 +23,12 @@ const messages = defineMessages({
   },
   firstUpdateButton: {
     id: 'course-authoring.course-updates.actions.first-update',
-    defaultMessage: 'Add first update',
+    defaultMessage: 'Добавить обновление',
     description: 'Button label for button to add first course update',
   },
   noCourseUpdates: {
     id: 'course-authoring.course-updates.actions.first-update-message',
-    defaultMessage: 'You have not added any updates to this course yet.',
+    defaultMessage: 'Вы еще не добавили никаких обновлений в этот курс.',
     description: 'Message to notify user that they do not have any existing course updates',
   },
   loadingUpdatesErrorTitle: {
