@@ -106,7 +106,7 @@ const FilesPage = ({
   };
   const accessColumn = {
     id: 'lockStatus',
-    Header: 'Access',
+    Header: 'Доступ',
     accessor: 'lockStatus',
     Cell: ({ row }) => AccessColumn({ row }),
     Filter: CheckboxFilter,
@@ -122,7 +122,7 @@ const FilesPage = ({
   };
   const fileSizeColumn = {
     id: 'fileSize',
-    Header: 'File size',
+    Header: 'Размер',
     accessor: 'fileSize',
     Cell: ({ row }) => {
       const { fileSize } = row.original;
@@ -133,12 +133,12 @@ const FilesPage = ({
   const tableColumns = [
     { ...thumbnailColumn },
     {
-      Header: 'File name',
+      Header: 'Название',
       accessor: 'displayName',
     },
     { ...fileSizeColumn },
     {
-      Header: 'Type',
+      Header: 'Тип',
       accessor: 'wrapperType',
       Filter: CheckboxFilter,
       filter: 'includesValue',
