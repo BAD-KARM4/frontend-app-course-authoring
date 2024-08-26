@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   headingTitle: {
     id: 'course-authoring.studio-home.heading.title',
-    defaultMessage: '{studioShortName} home',
+    defaultMessage: 'Конструктор курсов',
   },
   addNewCourseBtnText: {
     id: 'course-authoring.studio-home.add-new-course.btn.text',
@@ -43,7 +43,7 @@ const messages = defineMessages({
   },
   btnReRunText: {
     id: 'course-authoring.studio-home.btn.re-run.text',
-    defaultMessage: 'Re-run course',
+    defaultMessage: 'Перезапустить курс',
   },
   viewLiveBtnText: {
     id: 'course-authoring.studio-home.btn.view-live.text',
