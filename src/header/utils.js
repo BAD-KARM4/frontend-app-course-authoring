@@ -66,11 +66,11 @@ export const getSettingMenuItems = ({ studioBaseUrl, courseId, intl }) => {
 export const getToolsMenuItems = ({ studioBaseUrl, courseId, intl }) => ([
   {
     href: `${studioBaseUrl}/import/${courseId}`,
-    title: "Экспорт",
+    title: intl.formatMessage(messages['header.links.import']),
   },
   {
     href: `${studioBaseUrl}/export/${courseId}`,
-    title: intl.formatMessage(messages['header.links.exportCourse']),
+    title: "Экспорт",
   },
   ...(getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa'
     ? [{
