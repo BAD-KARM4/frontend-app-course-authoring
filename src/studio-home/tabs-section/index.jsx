@@ -134,25 +134,7 @@ const TabsSection = ({
         );
       }
 
-      if (isMixedOrV1LibrariesMode(libMode)) {
-        tabs.push(
-          <Tab
-            key={TABS_LIST.legacyLibraries}
-            eventKey={TABS_LIST.legacyLibraries}
-            title={intl.formatMessage(
-              libMode === 'v1 only'
-                ? messages.librariesTabTitle
-                : messages.legacyLibrariesTabTitle,
-            )}
-          >
-            <LibrariesTab
-              libraries={libraries}
-              isLoading={isLoadingLibraries}
-              isFailed={isFailedLibrariesPage}
-            />
-          </Tab>,
-        );
-      }
+      
     }
 
     if (getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa') {
