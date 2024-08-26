@@ -86,11 +86,6 @@ const PageAlerts = ({
       setShowDiscussionAlert(false);
     };
 
-    return (
-      <Alert
-      >
-      </Alert>
-    );
   };
 
   const deprecationWarning = () => {
