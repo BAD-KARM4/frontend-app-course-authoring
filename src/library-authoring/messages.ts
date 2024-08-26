@@ -17,7 +17,7 @@ const messages = defineMessages({
   },
   searchPlaceholder: {
     id: 'course-authoring.library-authoring.search',
-    defaultMessage: 'Search...',
+    defaultMessage: 'Поиск...',
     description: 'Placeholder for search field',
   },
   noSearchResults: {

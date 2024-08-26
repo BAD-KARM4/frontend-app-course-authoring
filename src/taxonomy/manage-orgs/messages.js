@@ -25,7 +25,7 @@ const messages = defineMessages({
   },
   searchOrganizations: {
     id: 'course-authoring.taxonomy-manage-orgs.search-orgs',
-    defaultMessage: 'Search for an organization',
+    defaultMessage: 'Поиск for an organization',
   },
   noOrganizationAssigned: {
     id: 'course-authoring.taxonomy-manage-orgs.no-orgs',

@@ -76,7 +76,7 @@ export interface GetLibrariesV2CustomParams {
   pagination?: boolean,
   /* (optional) Library field to order results by. Prefix with '-' for descending */
   order?: string,
-  /* (optional) Search query to filter v2 Libraries by */
+  /* (optional) Поиск query to filter v2 Libraries by */
   search?: string,
 }
 

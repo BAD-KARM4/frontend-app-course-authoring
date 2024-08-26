@@ -107,7 +107,7 @@ const CoursesFilters = ({
           value={cleanFilters ? '' : inputSearchValue}
           className="mr-4"
           data-testid="input-filter-courses-search"
-          placeholder="Search"
+          placeholder="Поиск"
         />
         {isLoading && (
           <span className="search-field-loading" data-testid="loading-search-spinner">
