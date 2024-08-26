@@ -30,65 +30,17 @@ const HomeSidebar = () => {
   return (
     <HelpSidebar>
       <h4 className="help-sidebar-about-title">
-        {intl.formatMessage(messages.aboutTitle, { studioName })}
+        Это заголовок
       </h4>
       <p className="help-sidebar-about-descriptions">
-        {intl.formatMessage(messages.aboutDescription, { studioShortName })}
+        Это текст под ним, а ниже должна быть ссылка.
       </p>
       <HelpSidebarLink
         as="span"
         pathToPage={aboutHomeLink || ''}
         title={intl.formatMessage(messages.studioHomeLinkToGettingStarted, { studioName })}
       />
-      {isShowMailToGetInstruction && (
-        <>
-          <hr />
-          <h4 className="help-sidebar-about-title">
-            {intl.formatMessage(messages.sidebarHeader2, { studioName })}
-          </h4>
-          <p className="help-sidebar-about-descriptions">
-            {intl.formatMessage(messages.sidebarDescription2, {
-              studioName,
-              mailTo: (
-                <MailtoLink to={studioRequestEmail}>{
-                  intl.formatMessage(messages.sidebarDescription2MailTo, { platformName })
-                }
-                </MailtoLink>
-              ),
-            })}
-          </p>
-        </>
-      )}
-      {isShowUnrequestedInstruction && (
-        <>
-          <hr />
-          <h4 className="help-sidebar-about-title">
-            {intl.formatMessage(messages.sidebarHeader3, { studioName })}
-          </h4>
-          <p className="help-sidebar-about-descriptions">
-            {intl.formatMessage(messages.sidebarDescription3, { studioName })}
-          </p>
-        </>
-      )}
-      {isShowDeniedInstruction && (
-        <>
-          <hr />
-          <h4 className="help-sidebar-about-title">
-            {intl.formatMessage(messages.sidebarHeader4, { studioName })}
-          </h4>
-          <p className="help-sidebar-about-descriptions">
-            {intl.formatMessage(messages.sidebarDescription4, {
-              studioName,
-              mailTo: (
-                <MailtoLink to={techSupportEmail}>{
-                  intl.formatMessage(messages.sidebarDescription4MailTo, { platformName })
-                }
-                </MailtoLink>
-              ),
-            })}
-          </p>
-        </>
-      )}
+      
     </HelpSidebar>
   );
 };
