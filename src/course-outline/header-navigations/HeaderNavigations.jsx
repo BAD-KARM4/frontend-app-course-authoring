@@ -35,13 +35,6 @@ const HeaderNavigations = ({
             </Tooltip>
           )}
         >
-          <Button
-            iconBefore={IconAdd}
-            onClick={handleNewSection}
-            disabled={errors?.outlineIndexApi}
-          >
-            {intl.formatMessage(messages.newSectionButton)}
-          </Button>
         </OverlayTrigger>
       )}
       {isReIndexShow && (
