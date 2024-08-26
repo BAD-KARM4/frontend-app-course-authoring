@@ -46,7 +46,7 @@ const messages = defineMessages({
     defaultMessage: 'Очистить фильтры',
   },
   taxonomiesTabTitle: {
-    id: 'course-authoring.studio-home.taxonomies.tab.title',
+    id: '',
     defaultMessage: '',
     description: 'Title of Taxonomies tab on the home page',
   },
