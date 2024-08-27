@@ -26,14 +26,6 @@ const TextbookSidebar = ({ courseId }) => {
       <p className="help-sidebar-about-descriptions">
         {intl.formatMessage(messages.section_2_descriptions)}
       </p>
-      <Hyperlink
-        className="small"
-        destination={textbookUrl}
-        target="_blank"
-        showLaunchIcon={false}
-      >
-        {intl.formatMessage(messages.sectionLink)}
-      </Hyperlink>
     </HelpSidebar>
   );
 };
