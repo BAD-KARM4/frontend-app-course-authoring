@@ -84,7 +84,6 @@ const LiveSettings = ({
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableLiveHelp)}
       enableAppLabel={intl.formatMessage(messages.enableLiveLabel)}
-      learnMoreText={intl.formatMessage(messages.enableLiveLink)}
       onClose={onClose}
       initialValues={liveConfiguration}
       validationSchema={validationSchema}

@@ -18,7 +18,6 @@ const NotesSettings = ({ onClose }) => {
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableNotesHelp)}
       enableAppLabel={intl.formatMessage(messages.enableNotesLabel)}
-      learnMoreText={intl.formatMessage(messages.enableNotesLink)}
       onClose={onClose}
     />
   );

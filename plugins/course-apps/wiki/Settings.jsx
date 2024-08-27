@@ -18,7 +18,6 @@ const WikiSettings = ({ intl, onClose }) => {
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableWikiHelp)}
       enableAppLabel={intl.formatMessage(messages.enableWikiLabel)}
-      learnMoreText={intl.formatMessage(messages.enableWikiLink)}
       onClose={onClose}
       initialValues={{ enablePublicWiki }}
       validationSchema={{ enablePublicWiki: Yup.boolean() }}

@@ -56,7 +56,6 @@ const TeamSettings = ({
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableTeamsHelp)}
       enableAppLabel={intl.formatMessage(messages.enableTeamsLabel)}
-      learnMoreText={intl.formatMessage(messages.enableTeamsLink)}
       onClose={onClose}
       bodyClassName="bg-light-200"
       // Topic is supported for backwards compatibility, the new field is team_sets:

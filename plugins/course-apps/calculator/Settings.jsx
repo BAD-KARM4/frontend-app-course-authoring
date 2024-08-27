@@ -18,7 +18,6 @@ const CalculatorSettings = ({ onClose }) => {
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableCalculatorHelp)}
       enableAppLabel={intl.formatMessage(messages.enableCalculatorLabel)}
-      learnMoreText={intl.formatMessage(messages.enableCalculatorLink)}
       onClose={onClose}
     />
   );
