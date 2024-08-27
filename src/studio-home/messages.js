@@ -47,7 +47,7 @@ const messages = defineMessages({
   },
   viewLiveBtnText: {
     id: 'course-authoring.studio-home.btn.view-live.text',
-    defaultMessage: 'View live',
+    defaultMessage: 'Просмотр',
   },
   organizationTitle: {
     id: 'course-authoring.studio-home.organization.title',

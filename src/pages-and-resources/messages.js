@@ -11,7 +11,7 @@ const messages = defineMessages({
   },
   viewLiveButton: {
     id: 'course-authoring.pages-resources.viewLive.button',
-    defaultMessage: 'View live',
+    defaultMessage: 'Просмотр',
   },
   errorShowingConfiguration: {
     id: 'course-authoring.pages-resources.courseAppPlugin.errorMessage',

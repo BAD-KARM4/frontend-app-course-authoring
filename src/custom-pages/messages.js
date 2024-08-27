@@ -21,7 +21,7 @@ const messages = defineMessages({
   },
   viewLiveLabel: {
     id: 'course-authoring.custom-pages.header.viewLive.label',
-    defaultMessage: 'View live',
+    defaultMessage: 'Просмотр',
   },
   pageExplanationHeader: {
     id: 'course-authoring.custom-pages.pageExplanation.header',
