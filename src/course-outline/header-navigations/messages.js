@@ -27,7 +27,7 @@ const messages = defineMessages({
   },
   viewLiveButton: {
     id: 'course-authoring.course-outline.header-navigations.button.view-live',
-    defaultMessage: 'View live',
+    defaultMessage: 'Просмотр',
   },
   viewLiveButtonTooltip: {
     id: 'course-authoring.course-outline.header-navigations.button.view-live.tooltip',
