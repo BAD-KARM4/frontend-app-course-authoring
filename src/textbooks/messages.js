@@ -1,17 +1,17 @@
 const descriptions = {
   headingTitle: {
     id: 'course-authoring.textbooks.header.title',
-    defaultMessage: 'Textbooks',
+    defaultMessage: 'Материалы',
     description: 'Title for the textbooks section',
   },
   breadcrumbContent: {
     id: 'course-authoring.textbooks.header.breadcrumb.content',
-    defaultMessage: 'Content',
+    defaultMessage: 'Контент',
     description: 'Breadcrumb for content',
   },
   breadcrumbPagesAndResources: {
     id: 'course-authoring.textbooks.header.breadcrumb.pages-and-resources',
-    defaultMessage: 'Pages & resources',
+    defaultMessage: 'Страницы и ресурсы',
     description: 'Breadcrumb for pages and resources',
   },
   breadcrumbAriaLabel: {
@@ -21,7 +21,7 @@ const descriptions = {
   },
   newTextbookButton: {
     id: 'course-authoring.textbooks.header.new-textbook',
-    defaultMessage: 'New textbook',
+    defaultMessage: 'Новый материал',
     description: 'Text for the button to create a new textbook',
   },
 };
