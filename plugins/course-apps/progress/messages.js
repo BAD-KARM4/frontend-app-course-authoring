@@ -3,18 +3,15 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   heading: {
     id: 'course-authoring.pages-resources.progress.heading',
-    defaultMessage: 'Configure progress',
+    defaultMessage: 'Настройки',
   },
   enableProgressLabel: {
     id: 'course-authoring.pages-resources.progress.enable-progress.label',
-    defaultMessage: 'Progress',
+    defaultMessage: 'Прогресс',
   },
   enableProgressHelp: {
     id: 'course-authoring.pages-resources.progress.enable-progress.help',
-    defaultMessage: `As students work through graded assignments, scores
-        will appear under the progress tab. The progress tab contains a chart of
-        all graded assignments in the course, with a list of all assignments and
-        scores below.`,
+    defaultMessage: `По мере того, как учащиеся будут выполнять задания с оценками, на вкладке "Прогресс" будут отображаться оценки. Вкладка "Прогресс" содержит таблицу всех заданий курса с оценками, а также список всех заданий и оценок ниже.`,
   },
   enableProgressLink: {
     id: 'course-authoring.pages-resources.progress.enable-progress.link',
@@ -22,11 +19,11 @@ const messages = defineMessages({
   },
   enableGraphLabel: {
     id: 'course-authoring.pages-resources.progress.enable-graph.label',
-    defaultMessage: 'Enable progress graph',
+    defaultMessage: 'Включить график выполнения',
   },
   enableGraphHelp: {
     id: 'course-authoring.pages-resources.progress.enable-graph.help',
-    defaultMessage: 'If enabled, students can view the progress graph',
+    defaultMessage: 'Если этот параметр включен, учащиеся могут просматривать график успеваемости',
   },
 });
 

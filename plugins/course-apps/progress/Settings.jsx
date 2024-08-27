@@ -22,7 +22,6 @@ const ProgressSettings = ({ intl, onClose }) => {
       title={intl.formatMessage(messages.heading)}
       enableAppHelp={intl.formatMessage(messages.enableProgressHelp)}
       enableAppLabel={intl.formatMessage(messages.enableProgressLabel)}
-      learnMoreText={intl.formatMessage(messages.enableProgressLink)}
       onClose={onClose}
       initialValues={{ enableProgressGraph: !disableProgressGraph }}
       validationSchema={{ enableProgressGraph: Yup.boolean() }}
