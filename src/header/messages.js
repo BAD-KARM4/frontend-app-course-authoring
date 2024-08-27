@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   'header.links.content': {
     id: 'header.links.content',
-    defaultMessage: 'Content',
+    defaultMessage: 'Контент',
     description: 'Label for Content menu trigger',
   },
   'header.links.settings': {
@@ -28,27 +28,27 @@ const messages = defineMessages({
   },
   'header.links.pages': {
     id: 'header.links.pages',
-    defaultMessage: 'Pages & Resources',
+    defaultMessage: 'Страницы и материалы',
     description: 'Link to Studio Pages page',
   },
   'header.links.filesAndUploads': {
     id: 'header.links.filesAndUploads',
-    defaultMessage: 'Files',
+    defaultMessage: 'Файлы',
     description: 'Link to Studio Files page',
   },
   'header.links.textbooks': {
     id: 'header.links.textbooks',
-    defaultMessage: 'Textbooks',
+    defaultMessage: 'Материалы',
     description: 'Link to Studio Textbooks page',
   },
   'header.links.videoUploads': {
     id: 'header.links.videoUploads',
-    defaultMessage: 'Videos',
+    defaultMessage: 'Видео',
     description: 'Link to Studio Video Uploads page',
   },
   'header.links.scheduleAndDetails': {
     id: 'header.links.scheduleAndDetails',
-    defaultMessage: 'Schedule & Details',
+    defaultMessage: 'Расписание',
     description: 'Link to Studio Schedule & Details page',
   },
   'header.links.grading': {
