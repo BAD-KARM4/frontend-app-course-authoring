@@ -48,15 +48,15 @@ const messages = defineMessages({
   },
   discussionEnabledSectionTitle: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.section-title',
-    defaultMessage: 'Discussion',
+    defaultMessage: 'Обсуждение',
   },
   discussionEnabledCheckbox: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.checkbox',
-    defaultMessage: 'Enable discussion',
+    defaultMessage: 'Включить обсуждение',
   },
   discussionEnabledDescription: {
     id: 'course-authoring.course-outline.configure-modal.discussion-enabled.description',
-    defaultMessage: 'Topics for unpublished units will not be created',
+    defaultMessage: 'Темы для неопубликованных статей создаваться не будут',
   },
   hideFromLearners: {
     id: 'course-authoring.course-outline.configure-modal.visibility.hide-from-learners',
