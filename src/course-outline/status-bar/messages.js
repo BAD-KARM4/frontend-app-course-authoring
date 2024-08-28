@@ -19,7 +19,7 @@ const messages = defineMessages({
   },
   checklistTitle: {
     id: 'course-authoring.course-outline.status-bar.checklists',
-    defaultMessage: 'Checklists',
+    defaultMessage: 'Чек-лист',
   },
   checklistCompleted: {
     id: 'course-authoring.course-outline.status-bar.checklists.completed',

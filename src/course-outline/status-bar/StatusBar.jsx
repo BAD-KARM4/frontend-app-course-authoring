@@ -106,7 +106,7 @@ const StatusBar = ({
               : "Обучение с ментором"}
           </span>
         </StatusBarItem>
-        <StatusBarItem title={intl.formatMessage(messages.checklistTitle)}>
+        <StatusBarItem title="Чек-лист">
           <Hyperlink
             className="small"
             destination={checklistDestination()}
