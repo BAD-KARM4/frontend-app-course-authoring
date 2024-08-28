@@ -19,7 +19,7 @@ const messages = defineMessages({
   },
   statusBadgeStaffOnly: {
     id: 'course-authoring.course-outline.card.status-badge.staff-only',
-    defaultMessage: 'Staff only',
+    defaultMessage: 'Закрыто',
   },
   statusBadgeDraft: {
     id: 'course-authoring.course-outline.card.status-badge.draft',
