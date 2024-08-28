@@ -417,7 +417,7 @@ const CourseOutline = ({ courseId }) => {
                                 iconBefore={IconAdd}
                                 block
                               >
-                                модуль
+                                Модуль
                               </Button>
                             )}
                           </>
