@@ -69,7 +69,7 @@ const HeaderNavigations = ({
           target="_blank"
           variant="outline-primary"
         >
-          "Просмотр"
+          Просмотр
         </Button>
       </OverlayTrigger>
     </nav>
