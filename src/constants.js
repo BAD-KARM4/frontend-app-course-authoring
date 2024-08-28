@@ -53,10 +53,10 @@ export const DECODED_ROUTES = {
 export const UPLOAD_FILE_MAX_SIZE = 20 * 1024 * 1024; // 100mb
 
 export const COURSE_BLOCK_NAMES = ({
-  chapter: { id: 'chapter', name: 'Section' },
-  sequential: { id: 'sequential', name: 'Subsection' },
-  vertical: { id: 'vertical', name: 'Unit' },
-  component: { id: 'component', name: 'Component' },
+  chapter: { id: 'chapter', name: 'Модуль' },
+  sequential: { id: 'sequential', name: 'Подмодуль' },
+  vertical: { id: 'vertical', name: 'Юнит' },
+  component: { id: 'component', name: 'Компонент' },
 });
 
 export const STUDIO_CLIPBOARD_CHANNEL = 'studio_clipboard_channel';
