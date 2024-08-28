@@ -195,7 +195,6 @@ const LibraryAuthoringPage = () => {
               </Routes>
             </Container>
           </SearchContextProvider>
-          <StudioFooter />
         </Col>
         { sidebarBodyComponent !== null && (
           <Col xs={3} md={3} className="box-shadow-left-1">

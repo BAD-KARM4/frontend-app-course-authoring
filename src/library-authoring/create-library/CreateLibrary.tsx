@@ -144,7 +144,6 @@ const CreateLibrary = () => {
         </Formik>
         {isError && (<AlertError error={error} />)}
       </Container>
-      <StudioFooter />
     </>
   );
 };

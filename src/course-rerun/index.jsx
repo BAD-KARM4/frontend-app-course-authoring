@@ -88,7 +88,6 @@ const CourseRerun = () => {
           isQueryPending={savingStatus === RequestStatus.PENDING}
         />
       </div>
-      <StudioFooter />
     </>
   );
 };

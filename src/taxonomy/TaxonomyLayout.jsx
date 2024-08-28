@@ -36,7 +36,6 @@ const TaxonomyLayout = () => {
           />
         )}
         <Outlet />
-        <StudioFooter />
         {toastMessage && (
           <Toast
             show
