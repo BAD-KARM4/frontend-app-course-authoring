@@ -78,7 +78,7 @@ const messages = defineMessages({
   },
   mobileFriendlyVideoLongDescription: {
     id: 'mobileFriendlyVideoLongDescription',
-    defaultMessage: 'Mobile-friendly videos can be viewed across all supported devices. Ensure that at least 90% of course videos are mobile friendly by uploading course videos to the edX video pipeline.',
+    defaultMessage: 'Видео для мобильных устройств можно просматривать на всех поддерживаемых устройствах.',
     description: 'Description for a section that prompts a user to follow best practices for mobile friendly videos',
   },
   diverseSequencesShortDescription: {
