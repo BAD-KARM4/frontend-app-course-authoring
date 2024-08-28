@@ -34,14 +34,14 @@ const PacingSection = ({
             description={intl.formatMessage(messages.pacingTypeInstructorDescription)}
             disabled={!canTogglePace}
           >
-            {intl.formatMessage(messages.pacingTypeInstructorLabel)}
+            {"Обучение с ментором"}
           </Form.Radio>
           <Form.Radio
             value="true"
             description={intl.formatMessage(messages.pacingTypeSelfDescription)}
             disabled={!canTogglePace}
           >
-            {intl.formatMessage(messages.pacingTypeSelfLabel)}
+            {"Самостоятельное обучение"}
           </Form.Radio>
         </Form.RadioSet>
       </Form.Group>

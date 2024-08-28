@@ -102,8 +102,8 @@ const StatusBar = ({
         <StatusBarItem title={intl.formatMessage(messages.pacingTypeTitle)}>
           <span className="small">
             {isSelfPaced
-              ? intl.formatMessage(messages.pacingTypeSelfPaced)
-              : intl.formatMessage(messages.pacingTypeInstructorPaced)}
+              ? "Самостоятельное обучение"
+              : "Обучение с ментором"}
           </span>
         </StatusBarItem>
         <StatusBarItem title={intl.formatMessage(messages.checklistTitle)}>
