@@ -106,15 +106,6 @@ const StatusBar = ({
               : "Обучение с ментором"}
           </span>
         </StatusBarItem>
-        <StatusBarItem title="Чек-лист">
-          <Hyperlink
-            className="small"
-            destination={checklistDestination()}
-            showLaunchIcon={false}
-          >
-            {checkListTitle} {intl.formatMessage(messages.checklistCompleted)}
-          </Hyperlink>
-        </StatusBarItem>
         {getConfig().ENABLE_TAGGING_TAXONOMY_PAGES === 'zhopa' && (
           <StatusBarItem title={intl.formatMessage(messages.courseTagsTitle)}>
             <div className="d-flex align-items-center">
