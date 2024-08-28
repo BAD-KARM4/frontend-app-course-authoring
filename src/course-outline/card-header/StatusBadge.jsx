@@ -7,14 +7,6 @@ const StatusBadge = ({
   icon,
   iconClassName,
 }) => {
-  // Define a mapping for text replacements
-  const textMapping = {
-    "Live": "Опубликовано",
-    "Staff only": "Закрыто",
-  };
-
-  // Check if text has a corresponding translation, if not use the original text
-  const displayText = textMapping[text] || text;
 
   if (displayText) {
     return (
@@ -29,7 +21,6 @@ const StatusBadge = ({
             className={iconClassName}
           />
         )}
-        <span className="small ml-1">{displayText}</span>
       </div>
     );
   }
