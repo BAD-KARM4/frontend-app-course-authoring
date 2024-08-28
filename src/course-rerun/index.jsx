@@ -7,7 +7,7 @@ import {
   ActionRow,
   Button,
 } from '@openedx/paragon';
-import { StudioFooter } from '@edx/frontend-component-footer';
+
 import { useNavigate, useParams } from 'react-router-dom';
 
 import Header from '../header';
