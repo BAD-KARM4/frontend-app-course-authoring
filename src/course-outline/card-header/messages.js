@@ -7,7 +7,7 @@ const messages = defineMessages({
   },
   statusBadgeLive: {
     id: 'course-authoring.course-outline.card.status-badge.live',
-    defaultMessage: 'Live',
+    defaultMessage: 'Опубликовано',
   },
   statusBadgeGated: {
     id: 'course-authoring.course-outline.card.status-badge.gated',

@@ -20,7 +20,7 @@ const StatusBadge = ({
             className={iconClassName}
           />
         )}
-        <span className="small ml-1">Опубликовано</span>
+        <span className="small ml-1">{text}</span>
       </div>
     );
   }
