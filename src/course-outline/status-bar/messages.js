@@ -11,11 +11,11 @@ const messages = defineMessages({
   },
   pacingTypeSelfPaced: {
     id: 'course-authoring.course-outline.status-bar.pacing-type.self-paced',
-    defaultMessage: 'Self-paced',
+    defaultMessage: 'Самостоятельное обучение',
   },
   pacingTypeInstructorPaced: {
     id: 'course-authoring.course-outline.status-bar.pacing-type.instructor-Paced',
-    defaultMessage: 'Instructor-paced',
+    defaultMessage: 'Обучение с ментором',
   },
   checklistTitle: {
     id: 'course-authoring.course-outline.status-bar.checklists',

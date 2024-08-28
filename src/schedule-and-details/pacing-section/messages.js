@@ -15,7 +15,7 @@ const messages = defineMessages({
   },
   pacingTypeInstructorLabel: {
     id: 'course-authoring.schedule.pacing.radio.instructor.label',
-    defaultMessage: 'Instructor-paced',
+    defaultMessage: 'Обучение с ментором',
   },
   pacingTypeInstructorDescription: {
     id: 'course-authoring.schedule.pacing.radio.instructor.description',
@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   pacingTypeSelfLabel: {
     id: 'course-authoring.schedule.pacing.radio.self-paced.label',
-    defaultMessage: 'Self-paced',
+    defaultMessage: 'Самостоятельное обучение',
   },
   pacingTypeSelfDescription: {
     id: 'course-authoring.schedule.pacing.radio.self-paced.description',
