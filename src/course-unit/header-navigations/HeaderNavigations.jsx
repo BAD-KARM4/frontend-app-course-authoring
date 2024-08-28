@@ -14,7 +14,7 @@ const HeaderNavigations = ({ headerNavigationsActions }) => {
         variant="outline-primary"
         onClick={handleViewLive}
       >
-        {intl.formatMessage(messages.viewLiveButton)}
+        "Просмотр"
       </Button>
       <Button
         variant="outline-primary"

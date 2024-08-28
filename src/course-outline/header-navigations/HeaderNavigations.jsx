@@ -69,7 +69,7 @@ const HeaderNavigations = ({
           target="_blank"
           variant="outline-primary"
         >
-          {intl.formatMessage(messages.viewLiveButton)}
+          "Просмотр"
         </Button>
       </OverlayTrigger>
     </nav>
